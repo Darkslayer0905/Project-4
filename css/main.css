@@ -33,10 +33,10 @@ p {
   font-family: Arial;
   text-decoration: none;
   text-shadow: 0px 1px 0px #1570cd;
-  border-radius: 2px;
-  font-size: 10px;
+  border-radius: 1px;
+  font-size: 5px;
   font-weight: regular;
-  padding: 3px 18px;
+  padding: 2px 15px;
 }
 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
@@ -114,6 +114,12 @@ body {
   }
 }
 @media screen and (min-width: 600px) {
+  .button {
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 24px;
+  }
   .page-container {
     width: 80%;
   }
