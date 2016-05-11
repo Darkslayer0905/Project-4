@@ -1,7 +1,57 @@
 // out: ../css/main.css, sourcemap: true
 
 @import "vendor/elements.less";
+@regular: 1em;
+@large: @regular * 2;
+@xlarge: @large * 2.2;
+@small: @regular / 1.5;
+
+
+
 
 p{
   .opacity(0.8);
+}
+
+
+button{
+    font-size: @regular;
+
+}
+
+
+button:hover {
+  opacity: 0.7;
+  color: white;
+  background-color: black;
+}
+
+button:active {
+    color: yellow;
+  background-color: red;
+  font-size: @small;
+}
+
+#Menu{
+  position: fixed;
+  top: 5;
+  z-index: 1;
+}
+
+#home{
+  position: relative;
+}
+
+#gallery{
+  position: relative;
+}
+
+#interests{
+  position: relative;
+
+}
+
+#aboutme{
+  position: relative;
+
 }
