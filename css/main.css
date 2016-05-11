@@ -5,16 +5,13 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 p {
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
-  filter: alpha(opacity=80);
-  color: white;
-  background-color: black;
-  align-self: center;
-  background-size: cover;
+  color: black;
+  font-weight: bolder;
+  background-color: white;
+  font-family: Arial;
+  margin-left: 25%;
+  width: auto;
+  background-size: auto;
 }
 .button {
   -moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
