@@ -60,6 +60,10 @@ p {
   padding-left: 5%;
   padding-top: 5%;
 }
+#thumbnailgallery {
+  overflow: auto;
+  height: 400px;
+}
 body {
   background-size: cover;
 }
