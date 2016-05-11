@@ -64,23 +64,7 @@ p{
 }
 
 
-/*button:hover {
-  opacity: 0.7;
-  color: white;
-  background-color: black;
-}
 
-button:active {
-    color: yellow;
-  background-color: red;
-  font-size: @small;
-}
-*/
-
-.link{
-  background-color: @skyblue;
-  opacity: .8;
-}
 
 .MainMenu{
   position: fixed;
@@ -103,5 +87,132 @@ button:active {
 
 #aboutme{
   position: relative;
+
+}
+
+//breakpoints
+@media screen and (min-width:300px) {
+
+
+    img{
+       max-width: 200px
+    }
+
+
+    .page-container{
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width:400px) {
+
+
+    img{
+       max-width: 300px
+    }
+
+
+    .page-container{
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width:500px) {
+
+
+
+h1{
+  font-size: 3em;
+}
+
+
+  img{
+     max-width: 400px
+  }
+
+  .page-container{
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width:600px) {
+
+
+    img{
+       max-width: 500px
+    }
+
+    a{
+      font-size: 2em;
+    }
+
+    .page-container{
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+
+  img{
+     max-width: 600px
+  }
+
+
+
+
+  .page-container{
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width:800px) {
+
+
+    img{
+       max-width: 700px
+    }
+
+    a{
+      font-size: 3em;
+    }
+
+
+    .page-container{
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width:900px){
+
+
+  img{
+     max-width: 800px
+  }
+
+  .page-container{
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width:1000px){
+
+  h1{
+    font-size: 5em;
+  }
+
+  img{
+     max-width: 900px
+  }
+
+  .page-container{
+    width: 80%;
+  }
 
 }
