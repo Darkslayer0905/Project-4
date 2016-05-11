@@ -26,17 +26,17 @@ p {
   background-color: #3d94f6;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  border-radius: 6px;
   border: 1px solid #337fed;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 24px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #1570cd;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: regular;
+  padding: 3px 18px;
 }
 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
@@ -55,6 +55,9 @@ p {
 .button {
   font-size: 1em;
 }
+body {
+  background-size: cover;
+}
 .MainMenu {
   position: fixed;
   top: 5;
@@ -72,78 +75,65 @@ p {
 #aboutme {
   position: relative;
 }
+#bio {
+  max-width: 300px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
 @media screen and (min-width: 300px) {
-  img {
-    max-width: 200px;
+  .button {
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: regular;
+    padding: 3px 18px;
   }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 400px) {
-  img {
-    max-width: 300px;
+  .button {
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: regular;
+    padding: 4px 20px;
   }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 500px) {
-  h1 {
-    font-size: 3em;
-  }
-  img {
-    max-width: 400px;
+  .button {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: regular;
+    padding: 5px 22px;
   }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 600px) {
-  img {
-    max-width: 500px;
-  }
-  a {
-    font-size: 2em;
-  }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 700px) {
-  img {
-    max-width: 600px;
-  }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 800px) {
-  img {
-    max-width: 700px;
-  }
-  a {
-    font-size: 3em;
-  }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 900px) {
-  img {
-    max-width: 800px;
-  }
   .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 5em;
-  }
-  img {
-    max-width: 900px;
-  }
   .page-container {
     width: 80%;
   }
