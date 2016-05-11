@@ -11,6 +11,10 @@ p {
   opacity: 0.8;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
   filter: alpha(opacity=80);
+  color: white;
+  background-color: black;
+  align-self: center;
+  background-size: cover;
 }
 .button {
   -moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
