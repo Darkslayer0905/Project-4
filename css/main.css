@@ -171,7 +171,7 @@ body {
     max-width: 150px;
   }
   .sketch:hover + .sketchbig {
-    width: 425px;
+    width: 400px;
   }
   .page-container {
     width: 80%;
@@ -188,7 +188,7 @@ body {
     height: 850px;
   }
   .sketch:hover + .sketchbig {
-    width: 525px;
+    width: 475px;
   }
   .page-container {
     width: 80%;
@@ -205,7 +205,7 @@ body {
     height: 950px;
   }
   .sketch:hover + .sketchbig {
-    width: 625px;
+    width: 550px;
   }
   .page-container {
     width: 80%;
@@ -222,7 +222,7 @@ body {
     max-width: 200px;
   }
   .sketch:hover + .sketchbig {
-    width: 725px;
+    width: 650px;
   }
   #thumbnailgallery {
     height: 1050px;
@@ -239,7 +239,7 @@ body {
     padding: 10px 32px;
   }
   .sketch:hover + .sketchbig {
-    width: 800px;
+    width: 725px;
   }
   #thumbnailgallery {
     height: 1150px;
