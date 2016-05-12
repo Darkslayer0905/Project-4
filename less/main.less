@@ -76,6 +76,18 @@ p{
   padding-top: 5%;
 }
 
+.sketch:hover + .sketchbig{
+  width: 200px;
+}
+
+.sketchbig{
+  position: absolute;
+  width: 0px;
+  -webkit-transition:width 0.3s linear 0s;
+  transition:width 0.3s linear 0s;
+  z-index:10;
+}
+
 #thumbnailgallery{
  overflow: auto;
  height:450px;
@@ -130,6 +142,10 @@ body{
   max-width: 75px;
 }
 
+.sketch:hover + .sketchbig{
+  width: 300px;
+}
+
     .page-container{
       width: 80%;
     }
@@ -152,6 +168,11 @@ body{
   .sketch{
     max-width: 100px;
   }
+
+  .sketch:hover + .sketchbig{
+    width: 400px;
+  }
+
     .page-container{
       width: 80%;
     }
@@ -169,6 +190,10 @@ body{
 
   #thumbnailgallery{
    height:650px;
+  }
+
+  .sketch:hover + .sketchbig{
+    width: 500px;
   }
 
   .page-container{
@@ -194,6 +219,10 @@ body{
     max-width: 150px;
   }
 
+  .sketch:hover + .sketchbig{
+    width: 600px;
+  }
+
     .page-container{
       width: 80%;
     }
@@ -216,7 +245,9 @@ body{
      height:850px;
     }
 
-
+    .sketch:hover + .sketchbig{
+      width: 800px;
+    }
 
   .page-container{
     width: 80%;
@@ -235,6 +266,10 @@ body{
 
   #thumbnailgallery{
    height:950px;
+  }
+
+  .sketch:hover + .sketchbig{
+    width: 900px;
   }
 
     .page-container{
@@ -256,6 +291,10 @@ body{
     max-width: 200px;
   }
 
+  .sketch:hover + .sketchbig{
+    width: 1000px;
+  }
+
   #thumbnailgallery{
    height:1050px;
   }
@@ -273,6 +312,10 @@ body{
     font-size:24px;
     font-weight: bold;
     padding: 10px 32px;
+  }
+
+  .sketch:hover + .sketchbig{
+    width: 1100px;
   }
 
   #thumbnailgallery{
