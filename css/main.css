@@ -7,7 +7,6 @@
 p {
   color: black;
   font-weight: bolder;
-  background-color: white;
   margin-right: 25%;
   font-family: Arial;
   margin-left: 25%;
@@ -18,6 +17,7 @@ p {
   padding-top: 10%;
   font-family: monospace;
   font-weight: bold;
+  font-size: 2em;
 }
 .button {
   -moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
