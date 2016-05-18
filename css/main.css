@@ -13,6 +13,11 @@ p {
   width: auto;
   background-size: auto;
 }
+#summary {
+  background-color: white;
+  font-family: arial;
+  font-weight: bold;
+}
 #skills {
   padding-top: 10%;
   font-family: monospace;
